@@ -1,10 +1,8 @@
 int n, l;
 vector<vector<int>> adj;
-
 int timer;
 vector<int> tin, tout;
 vector<vector<int>> up;
-
 void dfs(int v, int p) {
   tin[v] = ++timer;
   up[v][0] = p;
@@ -15,14 +13,11 @@ void dfs(int v, int p) {
     if (u != p)
       dfs(u, v);
   }
-
   tout[v] = ++timer;
 }
-
 bool is_ancestor(int u, int v) {
   return tin[u] <= tin[v] && tout[u] >= tout[v];
 }
-
 int lca(int u, int v) {
   if (is_ancestor(u, v))
     return u;
@@ -34,7 +29,6 @@ int lca(int u, int v) {
   }
   return up[u][0];
 }
-
 void preprocess(int root) {
   tin.resize(n);
   tout.resize(n);
