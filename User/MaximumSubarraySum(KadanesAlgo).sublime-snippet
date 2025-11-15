@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+int max_sum_of(vector<int> &vct){
+  int mx = INT_MIN, till = 0;
+  for (int i = 0; i<vct.size(); i++) {
+    till = till + vct[i];
+    mx = max(mx, till);
+    till = max(till, 1LL*0);
+  }
+  return mx;
+}
+
+    ]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>MaximumSubarraySum(KadanesAlgo)</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.cpp</scope> -->
+</snippet>
