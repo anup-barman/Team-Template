@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  10 NOV 2025 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  12 DEC 2025 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/khun_/Downloads/Team-Template/template/template.tex
-(/home/khun_/Downloads/Team-Template/template/template.tex
+**/home/khun_/Documents/Team-Template/template/template.tex
+(/home/khun_/Documents/Team-Template/template/template.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -191,7 +191,7 @@ runsystem(mkdir -p _minted-template)...disabled (restricted).
 
 
 
-/home/khun_/Downloads/Team-Template/template/template.tex:14: Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+/home/khun_/Documents/Team-Template/template/template.tex:14: Package minted Error: You must invoke LaTeX with the -shell-escape flag.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -975,7 +975,7 @@ runsystem(which pygmentize && touch template.aex)...disabled (restricted).
 
 
 
-/home/khun_/Downloads/Team-Template/template/template.tex:118: Package minted Error: You must have `pygmentize' installed to use this package.
+/home/khun_/Documents/Team-Template/template/template.tex:118: Package minted Error: You must have `pygmentize' installed to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -1108,7 +1108,7 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./logo.pdf>]
-/home/khun_/Downloads/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
+/home/khun_/Documents/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 l.121 \tableofcontents
@@ -1120,7 +1120,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/home/khun_/Downloads/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
+/home/khun_/Documents/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 l.121 \tableofcontents
@@ -1140,7 +1140,7 @@ No file template.toc.
 
 )
 ! Emergency stop.
-<*> ...wnloads/Team-Template/template/template.tex
+<*> ...cuments/Team-Template/template/template.tex
                                                   
 *** (job aborted, no legal \end found)
 
