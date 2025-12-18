@@ -215,6 +215,9 @@ def gen(level):
   files = [x for x in os.listdir(".") if os.path.isfile(x) and x != ".gitignore"]
   
   folders.sort()
+  if 'Setup' in folders:
+    folders.remove('Setup')
+    folders.insert(0, 'Setup')
   files.sort()
 
   parent = os.getcwd()
