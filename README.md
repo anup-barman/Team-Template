@@ -4,17 +4,7 @@ This script allows you to generate a PDF notebook of your competitive programmin
 
 ### Repository Structure
 
-The code is organized by topic in the `code/` directory:
-
-*   **Graph**: Algorithms like BFS, DFS, Dijkstra, Bellman-Ford, Max Flow, etc.
-*   **Tree**: LCA, Centroid Decomposition, DSU on Trees, etc.
-*   **Number Theory**: Sieve, Phi, Modular Arithmetic, etc.
-*   **Data Structures**: Segment Tree, Sparse Table, Hash Maps, etc.
-*   **String**: Suffix Array, Automata, Tries, Hashing, etc.
-*   **Dynamic Programming**: LIS, Digit DP, etc.
-*   **Math**: Matrix Exponentiation, Polynomial building blocks.
-*   **Geometry**: Convex Hull, Primitives.
-*   **Miscellaneous**: Sorting and other helper functions.
+The code is organized by topic in the `code/` directory.
 
 ### Required Packages
 
