@@ -1,71 +1,67 @@
-### This script and process has been taken from hamza-28(github) and has been modified.
+### Team Template Generator
 
-### Required Packages to compile and make the template
+This script allows you to generate a PDF notebook of your competitive programming algorithms and code snippets. It is based on the work by hamza-28 and has been modified for enhanced organization.
 
-* python3
-For apt based distributions like debian/ubuntu/mint/pop_os!/...
-  ```bash
-  sudo apt-get install python3
-  ```
-For dnf based distributions like RHEL/CentOS/Fedora/...
-  ```bash
-  sudo dnf install python3
-  ```
-* texlive-full
-apt based distros:
-  ```bash
-  sudo apt-get install texlive-full
-  ```
-dnf based distros:
-  ```bash
-  sudo dnf install texlive-scheme-full
-  ```
-* pygments
-apt based distros
-  ```bash
-  sudo apt-get install python3-pip
-  pip3 install pygments
-  ```
-dnf based distros
-  ```bash
-  sudo dnf install python3-pip
-  pip3 install pygments
-  ```
-  
-* **If failed:**
+### Repository Structure
 
-  You will have to create virtual environment in your project directory and acticate it
+The code is organized by topic in the `code/` directory:
 
-  ```bash
-  sudo apt install python3-venv
-  cd 
-  cd your/project/directory/address/here
-  python3 -m venv <your_env_name>
-  source <your_env_name>/bin/activate
-  ```
+*   **Graph**: Algorithms like BFS, DFS, Dijkstra, Bellman-Ford, Max Flow, etc.
+*   **Tree**: LCA, Centroid Decomposition, DSU on Trees, etc.
+*   **Number Theory**: Sieve, Phi, Modular Arithmetic, etc.
+*   **Data Structures**: Segment Tree, Sparse Table, Hash Maps, etc.
+*   **String**: Suffix Array, Automata, Tries, Hashing, etc.
+*   **Dynamic Programming**: LIS, Digit DP, etc.
+*   **Math**: Matrix Exponentiation, Polynomial building blocks.
+*   **Geometry**: Convex Hull, Primitives.
+*   **Miscellaneous**: Sorting and other helper functions.
 
-  Your prompt will change to show (<your_env_name>) at the beginning. 
+### Required Packages
 
-  Now run the commands to install **pygments**
+To compile and generate the PDF template, you need the following:
 
+*   **python3**
+    *   Debian/Ubuntu/Mint: `sudo apt-get install python3`
+    *   RHEL/CentOS/Fedora: `sudo dnf install python3`
 
+*   **texlive-full** (for LaTeX compilation)
+    *   Debian/Ubuntu/Mint: `sudo apt-get install texlive-full`
+    *   RHEL/CentOS/Fedora: `sudo dnf install texlive-scheme-full`
+
+*   **pygments** (for syntax highlighting)
+    *   Debian/Ubuntu/Mint:
+        ```bash
+        sudo apt-get install python3-pip
+        pip3 install pygments
+        ```
+    *   RHEL/CentOS/Fedora:
+        ```bash
+        sudo dnf install python3-pip
+        pip3 install pygments
+        ```
+    *   **Troubleshooting**: If you encounter issues, consider installing `pygments` in a virtual environment:
+        ```bash
+        sudo apt install python3-venv
+        python3 -m venv venv
+        source venv/bin/activate
+        pip3 install pygments
+        ```
 
 ### How To Use
 
-Put your codes in the **code** folder with .cpp file extention. You can create subfolders (E.g. - Graph, String, Math etc.) for different categories.
-
-Open a terminal in your project directory and run - 
-
-```bash
-  python3 main.py
-```
-
-
+1.  Add your `.cpp` or code files into the appropriate subdirectory within the `code/` folder.
+2.  Open a terminal in the project root directory.
+3.  Run the generation script:
+    ```bash
+    python3 main.py
+    ```
+4.  The output `notebook.pdf` will be generated in the root directory.
 
 ### Customization
 
-To customize you need to edit the ```template/template.tex``` file.
+To customize the look and feel or the metadata of the PDF:
 
-- To changed team and contest information, change line 4 - 11.
+*   **Edit `template/template.tex`**:
+    *   **Team & Contest Info**: Change lines 4-11.
+    *   **Font Size**: Edit line 1 or change `scaled=..` in line 21.
 
-- To change font size, edit line 1 or change ``scaled=..`` in line 21 (more flexible).
