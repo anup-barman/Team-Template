@@ -31,6 +31,10 @@
 \usepackage{amssymb,tikz,psfrag,epstopdf}
 \geometry{verbose,landscape,a4paper,tmargin=1.25cm,bmargin=0cm,lmargin=0.75cm,rmargin=.25cm}
 
+% Fix for overlapping subsection numbers in ToC
+\usepackage{tocloft}
+\setlength{\cftsubsecnumwidth}{3em}
+
 \newcommand{\maketeampage}{
 	\pagestyle{empty}
 	\setcounter{page}{0}
