@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  12 DEC 2025 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  12 DEC 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -992,7 +992,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 )
 
 LaTeX Warning: Unused global option(s):
-    [twosided].
+    [onesided].
 
 (./template.aux)
 \openout1 = `template.aux'.
