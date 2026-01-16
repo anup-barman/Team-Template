@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  12 DEC 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  16 JAN 2026 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -953,41 +953,77 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforesecskip=\skip71
+\cftsecindent=\skip72
+\cftsecnumwidth=\skip73
+\cftbeforesubsecskip=\skip74
+\cftsubsecindent=\skip75
+\cftsubsecnumwidth=\skip76
+\cftbeforesubsubsecskip=\skip77
+\cftsubsubsecindent=\skip78
+\cftsubsubsecnumwidth=\skip79
+\cftbeforeparaskip=\skip80
+\cftparaindent=\skip81
+\cftparanumwidth=\skip82
+\cftbeforesubparaskip=\skip83
+\cftsubparaindent=\skip84
+\cftsubparanumwidth=\skip85
+\cftbeforeloftitleskip=\skip86
+\cftafterloftitleskip=\skip87
+\cftbeforefigskip=\skip88
+\cftfigindent=\skip89
+\cftfignumwidth=\skip90
+\c@lofdepth=\count376
+\c@lotdepth=\count377
+\cftbeforelottitleskip=\skip91
+\cftafterlottitleskip=\skip92
+\cftbeforetabskip=\skip93
+\cfttabindent=\skip94
+\cfttabnumwidth=\skip95
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip65
-\f@nch@offset@elh=\skip66
-\f@nch@offset@erh=\skip67
-\f@nch@offset@olh=\skip68
-\f@nch@offset@orh=\skip69
-\f@nch@offset@elf=\skip70
-\f@nch@offset@erf=\skip71
-\f@nch@offset@olf=\skip72
-\f@nch@offset@orf=\skip73
-\f@nch@height=\skip74
-\f@nch@footalignment=\skip75
-\f@nch@widthL=\skip76
-\f@nch@widthC=\skip77
-\f@nch@widthR=\skip78
+\f@nch@headwidth=\skip96
+\f@nch@offset@elh=\skip97
+\f@nch@offset@erh=\skip98
+\f@nch@offset@olh=\skip99
+\f@nch@offset@orh=\skip100
+\f@nch@offset@elf=\skip101
+\f@nch@offset@erf=\skip102
+\f@nch@offset@olf=\skip103
+\f@nch@offset@orf=\skip104
+\f@nch@height=\skip105
+\f@nch@footalignment=\skip106
+\f@nch@widthL=\skip107
+\f@nch@widthC=\skip108
+\f@nch@widthR=\skip109
 \@temptokenb=\toks47
 )
 runsystem(which pygmentize && touch template.aex)...disabled (restricted).
 
 
 
-/home/khun_/Documents/Team-Template/template/template.tex:118: Package minted Error: You must have `pygmentize' installed to use this package.
+/home/khun_/Documents/Team-Template/template/template.tex:122: Package minted Error: You must have `pygmentize' installed to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \begin{document}
+l.122 \begin{document}
                       
 Refer to the installation instructions in the minted documentation for more information.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count376
+\l__color_backend_stack_int=\count378
 \l__pdf_internal_box=\box125
 )
 
@@ -997,60 +1033,60 @@ LaTeX Warning: Unused global option(s):
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 118.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 122.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 122.
  (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 118.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 118.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 122.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 122.
  (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 118.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 118.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 122.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 122.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
+\scratchcounter=\count379
 \scratchdimen=\dimen309
 \scratchbox=\box126
-\nofMPsegments=\count378
-\nofMParguments=\count379
+\nofMPsegments=\count380
+\nofMParguments=\count381
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count380
+\MPscratchCnt=\count382
 \MPscratchDim=\dimen310
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
 \everyMPtoPDFconversion=\toks49
 )
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 118.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 118.
-\c@lstlisting=\count383
-Package hyperref Info: Link coloring OFF on input line 118.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 122.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 122.
+\c@lstlisting=\count385
+Package hyperref Info: Link coloring OFF on input line 122.
 \@outlinefile=\write7
 \openout7 = `template.out'.
 
@@ -1096,9 +1132,9 @@ Package geometry Warning: The marginal notes overrun the paper.
 <logo.pdf, id=7, 794.97pt x 614.295pt>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-Package pdftex.def Info: logo.pdf  used on input line 119.
+Package pdftex.def Info: logo.pdf  used on input line 123.
 (pdftex.def)             Requested size: 341.43306pt x 263.84175pt.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 119.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 123.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1108,32 +1144,11 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./logo.pdf>]
-/home/khun_/Documents/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.121 \tableofcontents
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-/home/khun_/Documents/Team-Template/template/template.tex:121: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.121 \tableofcontents
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.39188pt on input line 125.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 121.
+(Font)              scaled to size 13.39188pt on input line 125.
+
 No file template.toc.
 \tf@toc=\write8
 \openout8 = `template.toc'.
@@ -1146,11 +1161,11 @@ No file template.toc.
 
  
 Here is how much of TeX's memory you used:
- 28213 strings out of 473197
- 521871 string characters out of 5718605
- 954477 words of memory out of 5000000
- 50993 multiletter control sequences out of 15000+600000
- 571148 words of font info for 41 fonts, out of 8000000 for 9000
+ 28484 strings out of 473197
+ 526096 string characters out of 5718605
+ 959981 words of memory out of 5000000
+ 51260 multiletter control sequences out of 15000+600000
+ 572506 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,5n,107p,526b,477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

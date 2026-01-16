@@ -1,7 +1,7 @@
 struct Dinic {
   struct Edge {
     int to;
-    long long capacity;
+    ll capacity;
     int rev;  // index of reverse edge
   };
 
@@ -12,7 +12,7 @@ struct Dinic {
 
   Dinic(int nodes) : n(nodes), adj(nodes), level(nodes), ptr(nodes) {}
 
-  void add_edge(int from, int to, long long cap) {
+  void add_edge(int from, int to, ll cap) {
     adj[from].push_back({to, cap, (int)adj[to].size()});
     adj[to].push_back({from, 0, (int)adj[from].size() - 1});
   }
@@ -35,14 +35,14 @@ struct Dinic {
     return level[t] != -1;
   }
 
-  long long dfs(int v, int t, long long pushed) {
+  ll dfs(int v, int t, ll pushed) {
     if (pushed == 0) return 0;
     if (v == t) return pushed;
     for (int& cid = ptr[v]; cid < adj[v].size(); ++cid) {
       auto& edge = adj[v][cid];
       int tr = edge.to;
       if (level[v] + 1 != level[tr] || edge.capacity == 0) continue;
-      long long tr_pushed = dfs(tr, t, min(pushed, edge.capacity));
+      ll tr_pushed = dfs(tr, t, min(pushed, edge.capacity));
       if (tr_pushed == 0) continue;
       edge.capacity -= tr_pushed;
       adj[tr][edge.rev].capacity += tr_pushed;
@@ -51,11 +51,11 @@ struct Dinic {
     return 0;
   }
 
-  long long max_flow(int s, int t) {
-    long long flow = 0;
+  ll max_flow(int s, int t) {
+    ll flow = 0;
     while (bfs(s, t)) {
       fill(ptr.begin(), ptr.end(), 0);
-      while (long long pushed = dfs(s, t, 1e18)) {
+      while (ll pushed = dfs(s, t, 1e18)) {
         flow += pushed;
       }
     }
@@ -67,7 +67,7 @@ int n, m;
 cin >> n >> m;
 Dinic dinic(n + 1); // Initialize with N+1 nodes (0 to N)
 for (int i = 0; i < m; i++) {
-    int u, v; long long cap;
+    int u, v; ll cap;
     cin >> u >> v >> cap;
     // Add directed edge u -> v with capacity
     // For bidirectional, add edge v -> u as well

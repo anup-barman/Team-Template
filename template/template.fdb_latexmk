@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1765535656.80865 "/home/khun_/Documents/Team-Template/template/template.tex" "template.pdf" "template" 1765535657.53584 2
+["pdflatex"] 1768546554.4119 "/home/khun_/Documents/Team-Template/template/template.tex" "template.pdf" "template" 1768546555.16608 2
   "/etc/texmf/web2c/texmf.cnf" 1746676242.34112 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/khun_/Documents/Team-Template/template/template.tex" 1765535655.81622 3497 8dee280862bfb27ca32400bc61c6ca4b ""
+  "/home/khun_/Documents/Team-Template/template/template.tex" 1768546554.50829 3603 038b7f02e2014391b6b45c5b84982552 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8t.tfm" 1136768653 4708 5672efb2ed6c1b68de999c866a8495e6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8t.tfm" 1136768653 5528 f11a9be4ef5afdd9fcc60e3a5281f872 ""
@@ -158,6 +158,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1736023606 48766 87a17a4ef312a39cd43896e34a679a56 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty" 1578692495 36103 3e78d14f0f4b1a30560fea5e04de805d ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty" 1717359999 10214 61188260d324e94bc2f66825d7d3fdf4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty" 1730496337 32879 f4cfa2226c995da5b04a89ee47abf182 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty" 1717359999 4121 6039ae6d0916154d7ba5f20a77b9ab2c ""
@@ -177,9 +178,9 @@
   "logo.pdf" 1762754663.16131 77031 2f91f558c2a932534f33b61b6107f0a7 ""
   "minted.sty" 1762754663.16131 47165 6a3e43a8d03bd86910a1dbf68d6c3645 ""
   "sectsty.sty" 1762754663.16131 22423 d476012cd03f82f9475ad54ba6cd3267 ""
-  "template.aux" 1765535657.46428 256 3704174b09d4b6a7dcf0c70cadfcdce3 "pdflatex"
-  "template.tex" 1765535655.81622 3497 8dee280862bfb27ca32400bc61c6ca4b ""
-  "template.toc" 1765535657.46428 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.aux" 1768546555.09362 256 3704174b09d4b6a7dcf0c70cadfcdce3 "pdflatex"
+  "template.tex" 1768546554.50829 3603 038b7f02e2014391b6b45c5b84982552 ""
+  "template.toc" 1768546555.09362 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "template.aux"
   "template.log"

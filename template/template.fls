@@ -308,6 +308,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -341,5 +343,6 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8t.tfm
 OUTPUT template.toc
