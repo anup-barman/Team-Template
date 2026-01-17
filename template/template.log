@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  17 JAN 2026 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.11.1)  17 JAN 2026 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1163,7 +1163,7 @@ No file template.toc.
 Here is how much of TeX's memory you used:
  28484 strings out of 473197
  526096 string characters out of 5718605
- 959974 words of memory out of 5000000
+ 959938 words of memory out of 5000000
  51260 multiletter control sequences out of 15000+600000
  572506 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

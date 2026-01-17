@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1768634547.03979 "/home/khun_/Documents/Team-Template/template/template.tex" "template.pdf" "template" 1768634547.78663 2
+["pdflatex"] 1768634699.89998 "/home/khun_/Documents/Team-Template/template/template.tex" "template.pdf" "template" 1768634700.65689 2
   "/etc/texmf/web2c/texmf.cnf" 1746676242.34112 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/khun_/Documents/Team-Template/template/template.tex" 1768634546.09677 3595 fbfa735dd4c6c61a596650aa3d329eb7 ""
+  "/home/khun_/Documents/Team-Template/template/template.tex" 1768634698.95261 3601 cec0eab256ac251a14f0c54430d83022 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8t.tfm" 1136768653 4708 5672efb2ed6c1b68de999c866a8495e6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8t.tfm" 1136768653 5528 f11a9be4ef5afdd9fcc60e3a5281f872 ""
@@ -178,9 +178,9 @@
   "logo.pdf" 1762754663.16131 77031 2f91f558c2a932534f33b61b6107f0a7 ""
   "minted.sty" 1762754663.16131 47165 6a3e43a8d03bd86910a1dbf68d6c3645 ""
   "sectsty.sty" 1762754663.16131 22423 d476012cd03f82f9475ad54ba6cd3267 ""
-  "template.aux" 1768634547.71383 256 3704174b09d4b6a7dcf0c70cadfcdce3 "pdflatex"
-  "template.tex" 1768634546.09677 3595 fbfa735dd4c6c61a596650aa3d329eb7 ""
-  "template.toc" 1768634547.71383 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.aux" 1768634700.58537 256 3704174b09d4b6a7dcf0c70cadfcdce3 "pdflatex"
+  "template.tex" 1768634698.95261 3601 cec0eab256ac251a14f0c54430d83022 ""
+  "template.toc" 1768634700.58426 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "template.aux"
   "template.log"
