@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}cmd\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{[}\PYG{l+s}{\PYGZdq{}ulimit \PYGZhy{}s 268435456; g++ \PYGZhy{}std=c++20 \PYGZdl{}file\PYGZus{}name \PYGZhy{}o \PYGZdl{}file\PYGZus{}base\PYGZus{}name \PYGZam{}\PYGZam{} timeout 4s ./\PYGZdl{}file\PYGZus{}base\PYGZus{}name \PYGZlt{} inputf.in \PYGZgt{} outputf.in\PYGZdq{}}\PYG{p}{],}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}selector\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}source.cpp\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}shell\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nb}{true}\PYG{p}{,}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}working\PYGZus{}dir\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdl{}file\PYGZus{}path\PYGZdq{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

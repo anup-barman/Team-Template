@@ -1,0 +1,42 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{string}\PYG{+w}{ }\PYG{n}{S}\PYG{p}{;}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{memo}\PYG{p}{[}\PYG{l+m+mi}{20}\PYG{p}{][}\PYG{l+m+mi}{2}\PYG{p}{][}\PYG{l+m+mi}{180}\PYG{p}{];}
+
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n+nf}{dp}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{idx}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{tight}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{current\PYGZus{}sum}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{c+c1}{// DP Definition:}
+\PYG{+w}{  }\PYG{c+c1}{// dp(idx, tight, current\PYGZus{}sum) returns the count of valid suffixes we can form}
+\PYG{+w}{  }\PYG{c+c1}{// starting from index \PYGZsq{}idx\PYGZsq{}, given the \PYGZsq{}tight\PYGZsq{} constraint and the current state (sum).}
+\PYG{+w}{  }\PYG{c+c1}{// Base Case: We have placed digits for all positions}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{idx}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{S}\PYG{p}{.}\PYG{n}{size}\PYG{p}{())}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// Found 1 valid number (or check: return current\PYGZus{}sum == target ? 1 : 0)}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{n}{ll}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{ans}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{memo}\PYG{p}{[}\PYG{n}{idx}\PYG{p}{][}\PYG{n}{tight}\PYG{p}{][}\PYG{n}{current\PYGZus{}sum}\PYG{p}{];}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{ans}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{ans}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{  }\PYG{c+c1}{// Determine the upper bound for the current digit}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{limit}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{tight}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{S}\PYG{p}{[}\PYG{n}{idx}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}0\PYGZsq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mi}{9}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{digit}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{digit}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{limit}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{digit}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// Transition:}
+\PYG{+w}{    }\PYG{c+c1}{// Move to next index (idx + 1).}
+\PYG{+w}{    }\PYG{c+c1}{// New tight constraint: (tight \PYGZam{}\PYGZam{} (digit == limit))}
+\PYG{+w}{    }\PYG{c+c1}{// New state: Update current\PYGZus{}sum (or other state variable)}
+\PYG{+w}{    }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{next\PYGZus{}tight}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{tight}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{digit}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{limit}\PYG{p}{);}
+\PYG{+w}{    }\PYG{c+c1}{// Example logic: filtering or constraints go here}
+\PYG{+w}{    }\PYG{c+c1}{// if (digit == 4) continue; // Example: skip digit 4}
+\PYG{+w}{    }\PYG{n}{ans}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{dp}\PYG{p}{(}\PYG{n}{idx}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{next\PYGZus{}tight}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{current\PYGZus{}sum}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{digit}\PYG{p}{);}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{memo}\PYG{p}{[}\PYG{n}{idx}\PYG{p}{][}\PYG{n}{tight}\PYG{p}{][}\PYG{n}{current\PYGZus{}sum}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// Wrapper function to query for range [0, N]}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n+nf}{query}\PYG{p}{(}\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{N}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{N}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{N}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// Handling 0 case if needed}
+\PYG{+w}{  }\PYG{n}{S}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{to\PYGZus{}string}\PYG{p}{(}\PYG{n}{N}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{memset}\PYG{p}{(}\PYG{n}{memo}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{memo}\PYG{p}{));}
+\PYG{+w}{  }\PYG{c+c1}{// Start from index 0, tight constraint is initially TRUE, initial sum is 0}
+\PYG{+w}{  }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{dp}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{true}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// To get answer for range [L, R]: query(R) \PYGZhy{} query(L \PYGZhy{} 1)}
+\end{Verbatim}

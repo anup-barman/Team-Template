@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}cmd\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{[}\PYG{l+s}{\PYGZdq{}g++.exe\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}\PYGZhy{}std=c++20\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdl{}\PYGZob{}file\PYGZcb{}\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZhy{}o\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdl{}\PYGZob{}file\PYGZus{}base\PYGZus{}name\PYGZcb{}.exe\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZam{}\PYGZam{}\PYGZdq{}}\PYG{+w}{ }\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdl{}\PYGZob{}file\PYGZus{}base\PYGZus{}name\PYGZcb{}.exe\PYGZlt{}inputf.in\PYGZgt{}outputf.in\PYGZdq{}}\PYG{p}{],}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}selector\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}source.cpp\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}shell\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nb}{true}\PYG{p}{,}
+\PYG{+w}{	}\PYG{l+s}{\PYGZdq{}working\PYGZus{}dir\PYGZdq{}}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdl{}file\PYGZus{}path\PYGZdq{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
