@@ -1,9 +1,10 @@
-int max_sum_of(vector<int> &vct){
-  int mx = INT_MIN, till = 0;
-  for (int i = 0; i<vct.size(); i++) {
-    till = till + vct[i];
-    mx = max(mx, till);
-    till = max(till, 1LL*0);
+ll max_subarray_sum(const vector<int>& nums) {
+  if (nums.empty()) return 0;
+  ll current_max = nums[0];
+  ll global_max = nums[0];
+  for (size_t i = 1; i < nums.size(); i++) {
+    current_max = max((ll)nums[i], current_max + nums[i]);
+    global_max = max(global_max, current_max);
   }
-  return mx;
+  return global_max;
 }
