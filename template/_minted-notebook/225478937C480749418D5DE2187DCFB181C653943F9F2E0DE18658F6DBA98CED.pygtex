@@ -1,0 +1,89 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}bits/stdc++.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}define int long long}
+\PYG{c+cp}{\PYGZsh{}define endl \PYGZsq{}\PYGZbs{}n\PYGZsq{}}
+\PYG{k}{using}\PYG{+w}{ }\PYG{k}{namespace}\PYG{+w}{ }\PYG{n+nn}{std}\PYG{p}{;}
+\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{N}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{3e5}\PYG{o}{+}\PYG{l+m+mi}{5}\PYG{p}{;}
+\PYG{n}{vector}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{N}\PYG{p}{];}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{ar}\PYG{p}{[}\PYG{n}{N}\PYG{p}{];}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{N}\PYG{p}{];}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{[}\PYG{n}{N}\PYG{p}{];}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{,}\PYG{n}{k}\PYG{p}{,}\PYG{n}{q}\PYG{p}{;}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{clear}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{clear}\PYG{p}{();}
+\PYG{+w}{      }\PYG{n}{ar}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{ans}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{pre}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{vertex}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{child}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{child}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{continue}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{pre}\PYG{p}{(}\PYG{n}{child}\PYG{p}{,}\PYG{n}{vertex}\PYG{p}{);}
+\PYG{+w}{      }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{],}\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{child}\PYG{p}{]);}
+
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{ar}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{reroot}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{vertex}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{max\PYGZus{}val}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ans}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{],}\PYG{n}{max\PYGZus{}val}\PYG{o}{+}\PYG{n}{ar}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{]);}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{maxi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{low}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{child}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{child}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{continue}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{val}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{child}\PYG{p}{];}
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{val}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{maxi}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{low}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{maxi}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{maxi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }\PYG{k}{else}\PYG{+w}{ }\PYG{k}{if}\PYG{p}{(}\PYG{n}{val}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{low}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{low}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{child}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{child}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{continue}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{dp1}\PYG{p}{[}\PYG{n}{child}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{maxi}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{n}{low}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{maxi}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{boro}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{max\PYGZus{}val}\PYG{p}{,}\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{ar}\PYG{p}{[}\PYG{n}{vertex}\PYG{p}{];}
+
+\PYG{+w}{      }\PYG{n}{reroot}\PYG{p}{(}\PYG{n}{child}\PYG{p}{,}\PYG{n}{vertex}\PYG{p}{,}\PYG{n}{boro}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{solve}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{cin}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{k}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{q}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{clear}\PYG{p}{(}\PYG{n}{n}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{k}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{cin}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{ar}\PYG{p}{[}\PYG{n}{x}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{u}\PYG{p}{,}\PYG{n}{v}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{cin}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{u}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{u}\PYG{p}{].}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{v}\PYG{p}{);}
+\PYG{+w}{      }\PYG{n}{tree}\PYG{p}{[}\PYG{n}{v}\PYG{p}{].}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{u}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{vector}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{qr}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{while}\PYG{p}{(}\PYG{n}{q}\PYG{o}{\PYGZhy{}\PYGZhy{}}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{cin}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}
+\PYG{+w}{      }\PYG{n}{qr}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{x}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{pre}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{reroot}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{maxi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{maxi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{maxi}\PYG{p}{,}\PYG{n}{ans}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{it}\PYG{o}{:}\PYG{n}{qr}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{ans}\PYG{p}{[}\PYG{n}{it}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{maxi}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{cout}\PYG{+w}{ }\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}JA\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{+w}{ }\PYG{n}{endl}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{else}\PYG{+w}{ }\PYG{n}{cout}\PYG{+w}{ }\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}NEIN\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{+w}{ }\PYG{n}{endl}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{signed}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ios\PYGZus{}base}\PYG{o}{::}\PYG{n}{sync\PYGZus{}with\PYGZus{}stdio}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{),}\PYG{n}{cin}\PYG{p}{.}\PYG{n}{tie}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{tt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{cin}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{tt}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{while}\PYG{p}{(}\PYG{n}{tt}\PYG{o}{\PYGZhy{}\PYGZhy{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{solve}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

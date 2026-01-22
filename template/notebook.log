@@ -1205,7 +1205,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [onesided].
 
-No file notebook.aux.
+(./notebook.aux)
 \openout1 = `notebook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -1225,15 +1225,14 @@ LaTeX Font Info:    ... okay on input line 122.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 122.
 LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
  122.
-(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 122.
 LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 122.
 LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
 122.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
 LaTeX Font Info:    ... okay on input line 122.
@@ -1268,6 +1267,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 122.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 122.
 \c@lstlisting=\count385
 Package hyperref Info: Link coloring OFF on input line 122.
+ (./notebook.out) (./notebook.out)
 \@outlinefile=\write7
 \openout7 = `notebook.out'.
 
@@ -1310,7 +1310,7 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.pdf, id=7, 794.97pt x 614.295pt>
+<logo.pdf, id=413, 794.97pt x 614.295pt>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
 Package pdftex.def Info: logo.pdf  used on input line 123.
@@ -1331,8 +1331,174 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 13.39188pt on input line 125.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 13.39188pt on input line 125.
+ (./notebook.toc
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 9.29993pt on input line 2.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.06795pt on input line 2.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
+2.
 
-No file notebook.toc.
+(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
+File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! Extra }, or forgotten $.
+<argument> ...start {\numberline {1.1}$CP\_Ubuntu}
+                                                  \Hy@toclinkend 
+l.3 ...erline {1.1}$CP\_Ubuntu}{1}{subsection.1.1}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...erline {1.1}$CP\_Ubuntu}{1}{subsection.1.1}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.3 ...erline {1.1}$CP\_Ubuntu}{1}{subsection.1.1}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<argument> ...tart {\numberline {1.2}$CP\_Windows}
+                                                  \Hy@toclinkend 
+l.4 ...rline {1.2}$CP\_Windows}{1}{subsection.1.2}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...rline {1.2}$CP\_Windows}{1}{subsection.1.2}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.4 ...rline {1.2}$CP\_Windows}{1}{subsection.1.2}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<argument> ...line {1.3}$Stress Testing(check.sh)}
+                                                  \Hy@toclinkend 
+l.5 ...tress Testing(check.sh)}{1}{subsection.1.3}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...tress Testing(check.sh)}{1}{subsection.1.3}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 ...tress Testing(check.sh)}{1}{subsection.1.3}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<argument> ...rline {1.4}$Stress Testing(gen.cpp)}
+                                                  \Hy@toclinkend 
+l.6 ...Stress Testing(gen.cpp)}{1}{subsection.1.4}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...Stress Testing(gen.cpp)}{1}{subsection.1.4}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.6 ...Stress Testing(gen.cpp)}{1}{subsection.1.4}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
 \tf@toc=\write8
 \openout8 = `notebook.toc'.
 
@@ -1365,8 +1531,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 128.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -1397,42 +1561,18 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 7.43994pt on input line 129.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 6.32394pt on input line 129.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 129.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 129.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 129.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 129.
-LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
-129.
-(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
-File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
-)
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 129.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 129.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 129.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 129
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 129
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 6.32394pt on input line 129.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 5.57996pt on input line 129.
-
 ! Extra }, or forgotten $.
 \ttlh@hang ...ngindent \wd \z@ \box \z@ \fi #4{#8}
                                                   \kern \z@ \ttl@strut \@@pa...
@@ -1469,21 +1609,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -S default -f latex -P commandprefix=PYG > _minted-noteboo
-k/default-pyg-prefix.pygstyle)...executed.
-
 (./_minted-notebook/default-pyg-prefix.pygstyle)
-runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > _minted-
-notebook/default.pygstyle)...executed.
-
-
 (./_minted-notebook/default.pygstyle)
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/94604EF103C600B7244F489837961E7A81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
 (./_minted-notebook/94604EF103C600B7244F489837961E7A81C653943F9F2E0DE18658F6DBA
 98CED.pygtex
 LaTeX Font Info:    Trying to load font information for T1+DejaVuSansMono-TLF o
@@ -1562,11 +1689,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/A2DC205BFEA8647CA24344B20B10C42581C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/A2DC205BFEA8647CA24344B20B10C42581C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -1629,11 +1751,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 189.
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9510D3C8A09D95077D7F2D4A3A25D8AE81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/9510D3C8A09D95077D7F2D4A3A25D8AE81C653943F9F2E0DE18658F6DBA
@@ -1703,11 +1820,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/92253953CD4215DE48C885FAD957961E81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/92253953CD4215DE48C885FAD957961E81C653943F9F2E0DE18658F6DBA
 98CED.pygtex
@@ -1764,11 +1876,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/6ED6531C11D71F04BD2A385B47CC9AEF81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/6ED6531C11D71F04BD2A385B47CC9AEF81C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -1798,14 +1905,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/D40863666CC2A62FC165FE89A2804ED481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/D40863666CC2A62FC165FE89A2804ED481C653943F9F2E0DE18658F6DBA
-98CED.pygtex
+98CED.pygtex [1
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}]
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/it' will be
 (Font)              scaled to size 7.19995pt on input line 35.
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
@@ -1909,11 +2013,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/486621BD1161A0A121E32FD77DEB332181C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/486621BD1161A0A121E32FD77DEB332181C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -1943,54 +2042,52 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/2A3B775F687FF14A7CF1F603133F109D81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/2A3B775F687FF14A7CF1F603133F109D81C653943F9F2E0DE18658F6DBA
-98CED.pygtex [1
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{
-/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_ts1.enc}])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.505 \subsection{Segment Tree(LzP)}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.505 \subsection{Segment Tree(LzP)}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/39EC6FFAEA2A591429184EC059E143FA81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/39EC6FFAEA2A591429184EC059E143FA81C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
+l.505 \subsection{Segment Tree(LzP)}
+                                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.505 \subsection{Segment Tree(LzP)}
+                                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+\openout3 = `notebook.pyg'.
+
+
+(./_minted-notebook/39EC6FFAEA2A591429184EC059E143FA81C653943F9F2E0DE18658F6DBA
+98CED.pygtex
+LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
+(Font)              scaled to size 9.29993pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
+(Font)              scaled to size 9.29993pt on input line 52.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_ts1.enc}])
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
 l.581 \subsection{Segment Tree}
                                
 Dimensions can be in units of em, ex, in, pt, pc,
@@ -2013,11 +2110,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/0B52CE93FB9C4169818364140349D9B581C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/0B52CE93FB9C4169818364140349D9B581C653943F9F2E0DE18658F6DBA
@@ -2047,11 +2139,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/DE4EF7C0702E48327A84B44AE109EA8681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/DE4EF7C0702E48327A84B44AE109EA8681C653943F9F2E0DE18658F6DBA
@@ -2106,11 +2193,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/8F706AC04D9321552D9C79689E6BB10A81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/8F706AC04D9321552D9C79689E6BB10A81C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -2139,11 +2221,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/275B97D497D1F7F3C56902B33042BCEF81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/275B97D497D1F7F3C56902B33042BCEF81C653943F9F2E0DE18658F6DBA
@@ -2174,25 +2251,9 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/DCD2C0612873EE0ACD97BBE488EEC60981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/DCD2C0612873EE0ACD97BBE488EEC60981C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 9.29993pt on input line 13.
-LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
-(Font)              scaled to size 9.29993pt on input line 13.
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[2])
+98CED.pygtex)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2218,11 +2279,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/2A376D29B88412B1C5F53D4F589A93EC81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/2A376D29B88412B1C5F53D4F589A93EC81C653943F9F2E0DE18658F6DBA
@@ -2253,14 +2309,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/FEFF4B906113EA9DF8B8D68FCFBE797E81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/FEFF4B906113EA9DF8B8D68FCFBE797E81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
+98CED.pygtex
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[3])
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2286,11 +2343,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/F2AE78ABA4046BF570564273C320043E81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/F2AE78ABA4046BF570564273C320043E81C653943F9F2E0DE18658F6DBA
@@ -2320,11 +2372,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9924D314DB7DC17FEA38E95ACC562F5681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/9924D314DB7DC17FEA38E95ACC562F5681C653943F9F2E0DE18658F6DBA
@@ -2379,20 +2426,9 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/ABA45F7195FA34960C24D5EE0DCF756981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/ABA45F7195FA34960C24D5EE0DCF756981C653943F9F2E0DE18658F6DBA
 98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[3]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\FancyVerbBreakAnywhereBreak�).
 
@@ -2450,11 +2486,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/5BB5B8AEB91E04E637644919402C71E881C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/5BB5B8AEB91E04E637644919402C71E881C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -2484,14 +2515,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/F13639658F6C406C75412E9D3FC0587981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/F13639658F6C406C75412E9D3FC0587981C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
+98CED.pygtex
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[4])
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2517,11 +2549,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/889053B78C8D1EE2CD28C72CF9F77DDC81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/889053B78C8D1EE2CD28C72CF9F77DDC81C653943F9F2E0DE18658F6DBA
@@ -2552,11 +2579,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/1156BD80074F4A834DE5C3ADCB2F718781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/1156BD80074F4A834DE5C3ADCB2F718781C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -2585,11 +2607,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/F4EB4368BB79D0A3E8A4A8EA802DF92281C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/F4EB4368BB79D0A3E8A4A8EA802DF92281C653943F9F2E0DE18658F6DBA
@@ -2620,20 +2637,9 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/AC45A23F18E523A9C26F868C5314C75C81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/AC45A23F18E523A9C26F868C5314C75C81C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[4])
+98CED.pygtex)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2659,11 +2665,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/8865961DA27E21DC198E597BC6A7DF6881C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/8865961DA27E21DC198E597BC6A7DF6881C653943F9F2E0DE18658F6DBA
@@ -2694,11 +2695,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/DEC2D53D2858223D071DFC315F81A78781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/DEC2D53D2858223D071DFC315F81A78781C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -2727,11 +2723,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/BA55C542D5C02AE9B2723BB6AB26C16681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/BA55C542D5C02AE9B2723BB6AB26C16681C653943F9F2E0DE18658F6DBA
@@ -2762,14 +2753,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/66C5BFE6A3738CF1A9EA6E7CC47C594E81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/66C5BFE6A3738CF1A9EA6E7CC47C594E81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
+98CED.pygtex
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[5])
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2795,11 +2787,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/2E0309DF3069AE92F3349DBB76C234F781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/2E0309DF3069AE92F3349DBB76C234F781C653943F9F2E0DE18658F6DBA
@@ -2830,11 +2817,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/15EBBE10E1A1EBD001C1087595919CFE81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/15EBBE10E1A1EBD001C1087595919CFE81C653943F9F2E0DE18658F6DBA
 98CED.pygtex
@@ -2843,7 +2825,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[5])
+[6])
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -2869,11 +2851,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/11B58E9C2AC11C43837630EBFC5A2EB781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/11B58E9C2AC11C43837630EBFC5A2EB781C653943F9F2E0DE18658F6DBA
@@ -2904,11 +2881,6 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/C8876FCF0FE1448D340F7E9181C86BC981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/C8876FCF0FE1448D340F7E9181C86BC981C653943F9F2E0DE18658F6DBA
 98CED.pygtex)
@@ -2937,11 +2909,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/C12DA89CCE7AA88A8EAF60B719D3E92781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/C12DA89CCE7AA88A8EAF60B719D3E92781C653943F9F2E0DE18658F6DBA
@@ -2996,20 +2963,9 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
 
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9FE7ED70DAF1B28D60874956FAAE8D3A81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
 
 (./_minted-notebook/9FE7ED70DAF1B28D60874956FAAE8D3A81C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[6])
+98CED.pygtex)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -3035,11 +2991,6 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 \openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/0395C1C567E0C86A4D1939E61173D18481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
 
 
 (./_minted-notebook/0395C1C567E0C86A4D1939E61173D18481C653943F9F2E0DE18658F6DBA
@@ -3358,1370 +3309,4 @@ You may provide a definition with
 
 
 ! LaTeX Error: Unicode character Σ (U+03A3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...hy{} 2\PYGZca{}(cnt0(b))) * 2\PYGZca{}b )}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character Σ (U+03A3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...hy{} 2\PYGZca{}(cnt0(b))) * 2\PYGZca{}b )}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2060 \subsection{Matrix Exponentiation}
-                                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2060 \subsection{Matrix Exponentiation}
-                                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9BD9EBDB7B456DE11D21322B97E7D8FD81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/9BD9EBDB7B456DE11D21322B97E7D8FD81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2122 \subsection{Matrix Rotation}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2122 \subsection{Matrix Rotation}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/359F5794279EE2EB22CB5E0CB28C160381C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/359F5794279EE2EB22CB5E0CB28C160381C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2156 \section{Miscellaneous}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2156 \section{Miscellaneous}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2157 \subsection{Max Subarray Size Sum equal K}
-                                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2157 \subsection{Max Subarray Size Sum equal K}
-                                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/17220C602CFB7CE84BCE55FF7D3321DC81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/17220C602CFB7CE84BCE55FF7D3321DC81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2213 \subsection{Merge Sort}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2213 \subsection{Merge Sort}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/961DE0EEA0297FFEBD3B42CB1AB71BE681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/961DE0EEA0297FFEBD3B42CB1AB71BE681C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2278 \subsection{Number of Subarray Sum is K}
-                                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2278 \subsection{Number of Subarray Sum is K}
-                                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/6CD46933A5C13E438A963EE693D4B09081C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/6CD46933A5C13E438A963EE693D4B09081C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[7])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2319 \section{Number Theory}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2319 \section{Number Theory}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2320 \subsection{All In One NT}
-                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2320 \subsection{All In One NT}
-                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/6341F2BADC92946E23E170EDDA97E99D81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/6341F2BADC92946E23E170EDDA97E99D81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2391 \subsection{Divisor Sieve}
-                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2391 \subsection{Divisor Sieve}
-                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/951D342D0D038FB3F69B64192FB561FB81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/951D342D0D038FB3F69B64192FB561FB81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2424 \subsection{Mobius Function}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2424 \subsection{Mobius Function}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/0F85433F9DC0AF8DC4F25DAEA8A6260C81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/0F85433F9DC0AF8DC4F25DAEA8A6260C81C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-! LaTeX Error: Unicode character ≤ (U+2264)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...+c1}{//Count Numbers ≤ n Coprime with x}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ≤ (U+2264)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...+c1}{//Count Numbers ≤ n Coprime with x}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ≤ (U+2264)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ≤ (U+2264)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\FancyVerbBreakAnywhereBreak�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\FancyVerbBreakAnywhereBreak�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ..., j) with gcd(i, j) = 1 (1 ≤ i,j ≤ n)}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Unicode character √ (U+221A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \PYG{c+c1}{//O(√x)}
-                           
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character √ (U+221A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \PYG{c+c1}{//O(√x)}
-                           
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \PYG{c+c1}{//Always precompute μ once}
-                                             
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \PYG{c+c1}{//Always precompute μ once}
-                                             
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...only \PYGZob{}\PYGZhy{}1, 0, +1\PYGZcb{}}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...only \PYGZob{}\PYGZhy{}1, 0, +1\PYGZcb{}}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2567 ...ection{Number of Pairs with GCD equal g}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2567 ...ection{Number of Pairs with GCD equal g}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/67E4BDB987B91B07230F2979F27C3E2281C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/67E4BDB987B91B07230F2979F27C3E2281C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[8])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2609 \subsection{Phi(1toN)}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2609 \subsection{Phi(1toN)}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/2AE51C445F17FBF8E8CA4A61E80AA71681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/2AE51C445F17FBF8E8CA4A61E80AA71681C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2645 \subsection{Phi}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2645 \subsection{Phi}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/928F9543ACE38438300BA13DF018F8D981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/928F9543ACE38438300BA13DF018F8D981C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2680 \subsection{SOD NOD}
-                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2680 \subsection{SOD NOD}
-                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/ABFC7531B47604598E7BAB5E76F9481981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/ABFC7531B47604598E7BAB5E76F9481981C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2728 \subsection{Segmented Sieve}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2728 \subsection{Segmented Sieve}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9E294DB266CBC0DC0E63A77BDA46C1E481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/9E294DB266CBC0DC0E63A77BDA46C1E481C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2770 \subsection{Sieve}
-                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2770 \subsection{Sieve}
-                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/52976D589671DA0A03BF716D0C35197481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/52976D589671DA0A03BF716D0C35197481C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2808 \subsection{Spf}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2808 \subsection{Spf}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/9E9E6BE7CAEE0891579FB880335B6BBC81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/9E9E6BE7CAEE0891579FB880335B6BBC81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2846 ...ection{UniquePF of all elements till MX}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2846 ...ection{UniquePF of all elements till MX}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/E4146BAED4985021342A9DA500CFB25C81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/E4146BAED4985021342A9DA500CFB25C81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2879 \subsection{int128}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2879 \subsection{int128}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/C1BFF69DBD4DDF8498A96ACF754F9C4C81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/C1BFF69DBD4DDF8498A96ACF754F9C4C81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2924 \subsection{nCr and nPr}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2924 \subsection{nCr and nPr}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/18F426BA4D5842B673538BEB38B4401681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/18F426BA4D5842B673538BEB38B4401681C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2967 \subsection{nCr v2}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.2967 \subsection{nCr v2}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/1B554E4DFDF94F0F06FF555B6C4F5D9881C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/1B554E4DFDF94F0F06FF555B6C4F5D9881C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[9])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3017 \section{String}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3017 \section{String}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3018 \subsection{Aho Corasic}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3018 \subsection{Aho Corasic}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/7071C749BBC941A27A43B49C8137ECCD81C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/7071C749BBC941A27A43B49C8137ECCD81C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3114 \subsection{LCS for 3 Strings}
-                                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3114 \subsection{LCS for 3 Strings}
-                                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/BC7AF925290ACAEA8A859D57EFC9041481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/BC7AF925290ACAEA8A859D57EFC9041481C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3150 \subsection{Manacher Palindrome}
-                                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3150 \subsection{Manacher Palindrome}
-                                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/2E2ADFD4AC8155E9125E5B42A03BA1C081C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/2E2ADFD4AC8155E9125E5B42A03BA1C081C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3196 \subsection{String Hashing 2}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3196 \subsection{String Hashing 2}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/AB0F1989DC1753051E273382A92E1D5581C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/AB0F1989DC1753051E273382A92E1D5581C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3274 \subsection{String Hashing}
-                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3274 \subsection{String Hashing}
-                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/88558D7B75753A9D6B1D2A0A1AE440A981C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/88558D7B75753A9D6B1D2A0A1AE440A981C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[10])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3363 \subsection{Suffix Array}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3363 \subsection{Suffix Array}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/8D94BE1388C38FFE932DCD905D592FF081C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/8D94BE1388C38FFE932DCD905D592FF081C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3410 \subsection{Suffix Automata}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3410 \subsection{Suffix Automata}
-                                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/E8F089D81277F69AF9FD08FF39D473F681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/E8F089D81277F69AF9FD08FF39D473F681C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3463 \subsection{Suffix Automation}
-                                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3463 \subsection{Suffix Automation}
-                                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/EBE19B8EF4AD03230946E5F3C182D24481C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/EBE19B8EF4AD03230946E5F3C182D24481C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3522 \subsection{Trie}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3522 \subsection{Trie}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/E9DA073CE693BBE96405605C1FC49C8781C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/E9DA073CE693BBE96405605C1FC49C8781C653943F9F2E0DE18658F6DBA
-98CED.pygtex
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[11])
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3572 \section{Tree}
-                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3572 \section{Tree}
-                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3573 \subsection{Centroid Decomposition}
-                                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3573 \subsection{Centroid Decomposition}
-                                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/8FAC736218133A822BAAB3DF8519C06381C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/8FAC736218133A822BAAB3DF8519C06381C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3656 \subsection{DSUOnTrees}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3656 \subsection{DSUOnTrees}
-                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\openout3 = `notebook.pyg'.
-
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -F gobb
-le:n=0 -P funcnamehighlighting=True -P mathescape=False -P texcomments=False -o
- _minted-notebook/DF578EE4348D5D4C9E1B4A7A4478B27681C653943F9F2E0DE18658F6DBA98
-CED.pygtex notebook.pyg)...executed.
-
-
-(./_minted-notebook/DF578EE4348D5D4C9E1B4A7A4478B27681C653943F9F2E0DE18658F6DBA
-98CED.pygtex)
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.3707 \subsection{LCA using binary Lifting}
-                           
+       
