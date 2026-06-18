@@ -19,5 +19,6 @@ int main(int argc, char* args[]) {
     per.push_back(i + 1);
   }
   shuffle(per.begin(), per.end(), rng);
+  
   return 0;
 }
